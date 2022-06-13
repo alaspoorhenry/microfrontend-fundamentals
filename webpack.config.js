@@ -159,7 +159,7 @@ const directoryOptions = {
 
 const defaultOptions = {
   standalone: false,
-  port: null,
+  port: 8081,
   format: null,
   externals: [],
   https: false,
