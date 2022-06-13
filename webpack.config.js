@@ -283,11 +283,12 @@ function createConfig({ folder }) {
       headers: {
         "Access-Control-Allow-Origin": "*",
       },
-      firewall: false,
+      // disabling because Webpack doesn't recognize these properties
+      // firewall: false,
       host: "localhost",
-      client: {
-        host: "localhost",
-      },
+      // client: {
+      //   host: "localhost",
+      // },
       https,
     },
   };
